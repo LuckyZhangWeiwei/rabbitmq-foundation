@@ -21,8 +21,6 @@ namespace FormulaAirlline.API.Services
 
             using var channel = connection.CreateModel();
 
-            channel.QueueDeclare();
-
             channel.QueueDeclare(
                 "bookings",
                 durable: true,
