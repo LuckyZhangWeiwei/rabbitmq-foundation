@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rabbitmq:
+    container_name: "rabbitmq"
+    image: rabbitmq:3-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    ports:
+      # Rabbitmq instance
+      - ':5672'
+      # web interface
+      - ':15672'

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirlline.API", "FormulaAirlline.API\FormulaAirlline.API.csproj", "{5B2AAAA1-9444-4ADE-8AC7-81781B46CD34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirline.TicketProcessing", "FormulaAirline.TicketProcessing\FormulaAirline.TicketProcessing.csproj", "{57323AC1-1DB7-432A-8AA6-28B2C2DCF2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B2CB81E-F188-4747-A423-37D989B81D46}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B2AAAA1-9444-4ADE-8AC7-81781B46CD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2AAAA1-9444-4ADE-8AC7-81781B46CD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2AAAA1-9444-4ADE-8AC7-81781B46CD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2AAAA1-9444-4ADE-8AC7-81781B46CD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57323AC1-1DB7-432A-8AA6-28B2C2DCF2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57323AC1-1DB7-432A-8AA6-28B2C2DCF2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57323AC1-1DB7-432A-8AA6-28B2C2DCF2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57323AC1-1DB7-432A-8AA6-28B2C2DCF2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67E6168A-A72D-4E41-B828-6417809EB24D}
+	EndGlobalSection
+EndGlobal
