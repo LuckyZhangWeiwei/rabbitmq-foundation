@@ -39,4 +39,4 @@ consumer.Received += (sender, args) =>
 
 channel.BasicConsume("bookings", true, consumer);
 
-Console.ReadLine();
+//Console.ReadLine();
