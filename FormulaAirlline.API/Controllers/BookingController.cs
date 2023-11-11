@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FormulaAirlline.API.Controllers
 {
+    //http://localhost:14858/#/queues
+
     [ApiController]
     [Route("[controller]")]
     public class BookingsController : ControllerBase
