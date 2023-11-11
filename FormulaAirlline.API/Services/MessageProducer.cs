@@ -26,7 +26,7 @@ namespace FormulaAirlline.API.Services
             channel.QueueDeclare(
                 "bookings",
                 durable: true,
-                exclusive: false,
+                exclusive: false, //默认，如果为true， 只能发送一条消息？
                 autoDelete: false,
                 arguments: null
             );
