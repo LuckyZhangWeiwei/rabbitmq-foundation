@@ -11,7 +11,7 @@ namespace FormulaAirlline.API.Services
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                Port = 14859,
+                Port = 5672,
                 UserName = "guest",
                 Password = "guest",
                 VirtualHost = "/"

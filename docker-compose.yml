@@ -8,6 +8,9 @@ services:
       - RABBITMQ_DEFAULT_PASS=guest
     ports:
       # Rabbitmq instance
-      - ':5672'
+      - '5672:5672'
       # web interface
-      - ':15672'
+      - '8081:15672'
+#执行下面的命令 才把 上面的网络映射搞定
+#net stop hns
+#net start hns
